@@ -21,7 +21,7 @@ const Review = require("./models/review.js");
 
 
 
-const MONGO_URL = "mongodb+srv://2022ugcs001:anisha9279@cluster0.rwutq0a.mongodb.net/";
+const MONGO_URL = "mongodb+srv://2022ugcs001:anisha9279@cluster0.rwutq0a.mongodb.net/?retryWrites=true&w=majority";
 
 main()
   .then(() => {
